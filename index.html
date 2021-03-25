@@ -6,7 +6,13 @@
 	<link href="styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+	<div id="container">
 	<h2>Actividad 6</h2>
-	<script src="script.js"></script>
+	<img src="assets/focoOff.png" onclick="this.src = (this.src.endsWith(imgOff)? imgOn : imgOff)"/>
+	<script>
+		var imgOn = "assets/focoOn.png";
+		var imgOff = "assets/focoOff.png";
+	</script>
+	</div>
 </body>
 </html>
